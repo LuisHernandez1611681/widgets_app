@@ -61,5 +61,11 @@ const appMenuItems = <MenuItem>[
     subTitle: 'Listas infinitas y pull to refresh', 
     link: '/infinite', 
     icon: Icons.list_alt_rounded
-  )
+  ),
+  MenuItem(
+    title: 'Contador con riverpod', 
+    subTitle: 'Contador con gestor global de estados', 
+    link: '/counter-screen', 
+    icon: Icons.add
+  ),
 ];
